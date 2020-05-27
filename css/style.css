@@ -1,0 +1,130 @@
+html, body{
+    height: 100%;
+  }
+  body {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .content {
+    flex: 1 0 auto;
+    padding-top: 76px;
+  }
+
+@media(max-width:800px){
+    .collapse img{
+        display: none;
+    }
+}
+
+.imquarto {
+    height: 275px;
+}
+.card-title{
+    text-align: center;
+    color: #4f5386;
+}
+.card-header{
+    font-family: Arial, Helvetica, sans-serif
+}
+.preço{
+    font-size: 26px;
+    color: green;
+    
+}
+/*Fim*/
+
+
+.container .content .card-body .btn{
+    background-color: #060d5b;
+}
+
+.navbar{
+    background-color: rgba(6, 13, 91, 0.9);
+}
+
+.container .content .card-body a{
+    color: white;
+}
+
+.navbar-brand img{
+    height: 50px;
+}
+
+.collapse img{
+    height: 100px;
+    width: 200px;
+}
+
+.collapse a{
+    color: rgb(241, 235, 235);
+} 
+
+.carousel-item{
+    height: 5%;
+}
+.carousel-inner .carousel-item img{
+    height: 500px;
+    width: 100%;
+}
+
+@media(max-width:380px){
+    .carousel-inner .carousel-item{
+        height: 250px;
+        width: 100%;
+}
+}
+
+
+.container{
+    margin-top: 2%;
+    text-align: center;
+}
+
+@media(max-width:991px){
+    .local iframe,.localizacao{
+    display: none;
+    /* width: 250px; */
+}
+}
+
+.local iframe{
+    height: 350px;
+    width: 500px;
+}
+
+.footer {
+    background-color: 	#DAA520 !important;
+    flex-shrink: 0;
+    height: 200px;
+    margin-top: 1%;
+    padding-top: 1%;
+    width: 100%;
+}
+.footer .container_rodape{
+    width: 90%;
+}
+.icons{
+    padding-top: 2.5%;
+    text-align: center;
+}
+
+.icons img{
+    height: 30px; 
+    margin: 1%;
+    width: 30px;
+}
+
+.icons img:hover{
+    height: 60px;
+    width: 60px;
+}
+.footer .txt{
+    color: white;
+    bottom: 0%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 16px;
+    margin-top: 2.5%;
+    text-align: center;
+    
+}
